@@ -5,6 +5,18 @@
  */
 public class OneOfEach {
 	public static void main (String[] args) {
-		//// Put your code here
+		int n = Math.random(); 
+		boolean IsBoy = false;
+		boolean IsGirl = false;  
+		String ans = ""; 
+		int sum = 0; 
+		while ((IsBoy = false) && (IsGirl = false)) {
+		if (n >= 0.5) {
+			ans = ans + "b";
+			}  else  {
+				ans = ans + "g";
+			}
+			n = 
+		}
 	}
 }
