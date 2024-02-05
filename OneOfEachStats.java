@@ -34,14 +34,14 @@ public class OneOfEachStats {
 				double random = generator.nextDouble();
 				if (random <= 0.5){
 				girl = true; 
-				System.out.print("g ");
+				//System.out.print("g ");
 				} else {
 					boy = true;
-					System.out.print("b ");
+					//System.out.print("b ");
 				}
 				count++; 
 			}
-			System.out.println();
+			//System.out.println();
 			sumNumberOfChildren = sumNumberOfChildren + count;
 
 			if (count == 2) { 
